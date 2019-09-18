@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Raleway:400,500,600,700,800,900|Roboto:400,500,700,900|Yeseva+One&display=swap');
+
+$black: #161616;
+$beige: #F4EBDE;
+$montserrat: 'Montserrat', sans-serif;
+$raleway: 'Raleway', sans-serif;
+$roboto: 'roboto', sans-serif;
+$yeseva-one: 'Yeseva One', sans-serif;
+
+html, body {
+  font-family: $roboto;
+}
+
+.latest-news {
+  background-color: $black;
+  color: white;
+  a {
+    color: white;
+    &:hover {
+      color: darken(white, 10%);
+      text-decoration: none;
+    }
+  }
+}
+
+.nav {
+  background-color: $beige;
+  text-transform: uppercase;
+  .navbar-nav a.nav-link {
+    padding: .5em 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+  .active {
+    font-weight: bold;
+  }
+}
