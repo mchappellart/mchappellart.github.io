@@ -28,4 +28,13 @@ html, body {
   font-weight: bold;
 }
 
+.slick-slide img {
+  opacity: 0.5;
+}
+
+.slick-center img {
+  opacity: 1;
+  transform: scale(1.08);
+}
+
 /*# sourceMappingURL=style.css.map */
