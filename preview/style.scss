@@ -2,6 +2,7 @@
 
 $black: #161616;
 $beige: #F4EBDE;
+$darkbeige: #7D745E;
 $montserrat: 'Montserrat', sans-serif;
 $raleway: 'Raleway', sans-serif;
 $roboto: 'roboto', sans-serif;
@@ -9,6 +10,10 @@ $yeseva-one: 'Yeseva One', sans-serif;
 
 html, body {
   font-family: $roboto;
+  letter-spacing: 1.5px;
+}
+p {
+    color: #999;
 }
 
 .latest-news {
@@ -27,7 +32,7 @@ html, body {
   background-color: $beige;
   text-transform: uppercase;
   .navbar-nav a.nav-link {
-    padding: .5em 15px;
+    padding: 1em 20px;
     font-size: 0.9em;
     font-weight: 500;
   }
@@ -41,4 +46,11 @@ html, body {
 }
 .slick-center img {
   opacity: 1;
+}
+
+.social a {
+    color: $darkbeige;
+    &:hover {
+        color: lighten($darkbeige, 10%);
+    }
 }
