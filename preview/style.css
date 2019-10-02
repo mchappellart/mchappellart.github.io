@@ -1,13 +1,66 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Raleway:400,500,600,700,800,900|Roboto:400,500,700,900|Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300,400,500,600,700,800,900&display=swap");
 html, body {
   font-family: "roboto", sans-serif;
   letter-spacing: 1.5px;
+}
+
+h2 {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 0px;
+}
+h2::before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  background: #161616;
+  width: 40%;
+  float: left;
+  margin-top: 16px;
+}
+h2::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  background: #161616;
+  width: 40%;
+  float: right;
+  margin-top: 16px;
 }
 
 p {
   color: #999;
 }
 
+@media (max-width: 768px) {
+  h2 {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 0px;
+  }
+  h2::before {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #161616;
+    width: 30%;
+    float: left;
+    margin-top: 16px;
+  }
+  h2::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #161616;
+    width: 30%;
+    float: right;
+    margin-top: 16px;
+  }
+}
 .latest-news {
   background-color: #161616;
   color: white;
@@ -57,6 +110,39 @@ p {
   border: #161616;
   border: 2px solid #161616;
   border-radius: 50vh;
+}
+.button:hover {
+  color: #7D745E;
+}
+
+.portfolio-pieces img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.portfolio-pieces .over {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(125, 116, 93, 0.8);
+}
+.portfolio-pieces .over p {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+.portfolio-pieces .over:hover {
+  opacity: 1;
+}
+.portfolio-pieces .over:focus {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
