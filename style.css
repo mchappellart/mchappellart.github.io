@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Raleway:400,500,600,700,800,900|Roboto:400,500,700,900|Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300,400,500,600,700,800,900&display=swap");
+html, body {
+  font-family: "roboto", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-family: "Saira Extra Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: 0px;
+}
+h2::before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  background: #161616;
+  width: 40%;
+  float: left;
+  margin-top: 16px;
+}
+h2::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  background: #161616;
+  width: 40%;
+  float: right;
+  margin-top: 16px;
+}
+
+p {
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 0px;
+  }
+  h2::before {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #161616;
+    width: 30%;
+    float: left;
+    margin-top: 16px;
+  }
+  h2::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #161616;
+    width: 30%;
+    float: right;
+    margin-top: 16px;
+  }
+}
+.latest-news {
+  background-color: #161616;
+  color: white;
+}
+.latest-news a {
+  color: white;
+}
+.latest-news a:hover {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #F4EBDE;
+  text-transform: uppercase;
+}
+.nav .navbar-nav a.nav-link {
+  padding: 1em 20px;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.nav .active {
+  font-weight: 900 !important;
+}
+
+.slick-slide img {
+  opacity: 0.3;
+}
+
+.slick-center img {
+  opacity: 1;
+}
+
+.social a {
+  color: #7D745E;
+}
+.social a:hover {
+  color: #988e76;
+}
+
+.button {
+  color: #161616;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0.5em 2.5em;
+  text-transform: uppercase;
+  border: #161616;
+  border: 2px solid #161616;
+  border-radius: 50vh;
+}
+.button:hover {
+  color: #7D745E;
+}
+
+.portfolio-pieces img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.portfolio-pieces .over {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(22, 22, 21, 0.8);
+}
+.portfolio-pieces .over p {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+.portfolio-pieces .over:hover {
+  opacity: 1;
+}
+.portfolio-pieces .over:focus {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
