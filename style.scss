@@ -156,3 +156,75 @@ p {
                 }
             }
 }
+
+.modal-content {
+    padding: 2em;
+    position: relative;
+    display: block;
+    border-radius: 0px;
+    min-height: 400px;
+    img {
+        height: auto;
+        width: 220px;
+    }
+
+    h2 {
+        margin: 0 0 0.5em 0 !important;
+        &::before {
+            content: '';
+            display: inline-block;
+            height: 1px;
+            background: $black;
+            width: 30%;
+            float: left;
+            margin-top: 16px;
+        }
+        &::after {
+            content: '';
+            display: inline-block;
+            height: 1px;
+            background: $black;
+            width: 30%;
+            float: right;
+            margin-top: 16px;
+        }
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p:last-of-type {
+        margin-bottom: 0 !important;
+    }
+}
+
+.modal {
+    text-align: center;
+    padding: 0 !important;
+
+    button {
+        background: none;
+        font-weight: normal;
+        border: 0;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 2px;
+        cursor: pointer;
+    }
+
+    &:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        margin-right: -4px;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
