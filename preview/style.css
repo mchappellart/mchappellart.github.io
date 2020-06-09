@@ -12,7 +12,7 @@ h2 {
   font-size: 2em;
   letter-spacing: 0px;
 }
-h2::before {
+h2.before::before {
   content: "";
   display: inline-block;
   height: 1px;
@@ -21,12 +21,21 @@ h2::before {
   float: left;
   margin-top: 16px;
 }
-h2::after {
+h2.after::after {
   content: "";
   display: inline-block;
   height: 1px;
   background: #161616;
   width: 40%;
+  float: right;
+  margin-top: 16px;
+}
+h2.onlyAfter::after {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  background: #161616;
+  width: 85%;
   float: right;
   margin-top: 16px;
 }
@@ -42,7 +51,7 @@ p {
     font-size: 2em;
     letter-spacing: 0px;
   }
-  h2::before {
+  h2.before::before {
     content: "";
     display: inline-block;
     height: 1px;
@@ -51,12 +60,21 @@ p {
     float: left;
     margin-top: 16px;
   }
-  h2::after {
+  h2.after::after {
     content: "";
     display: inline-block;
     height: 1px;
     background: #161616;
     width: 30%;
+    float: right;
+    margin-top: 16px;
+  }
+  h2.onlyAfter::after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    background: #161616;
+    width: 80%;
     float: right;
     margin-top: 16px;
   }

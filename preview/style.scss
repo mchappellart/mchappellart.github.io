@@ -21,25 +21,43 @@ h2 {
     font-weight: bold;
     font-size: 2em;
     letter-spacing: 0px;
-    &::before {
-        content: '';
-        display: inline-block;
-        height: 1px;
-        background: $black;
-        width: 40%;
-        float: left;
-        margin-top: 16px;
+    &.before {
+      &::before {
+          content: '';
+          display: inline-block;
+          height: 1px;
+          background: $black;
+          width: 40%;
+          float: left;
+          margin-top: 16px;
+      }
     }
-    &::after {
-        content: '';
-        display: inline-block;
-        height: 1px;
-        background: $black;
-        width: 40%;
-        float: right;
-        margin-top: 16px;
+
+    &.after {
+      &::after {
+          content: '';
+          display: inline-block;
+          height: 1px;
+          background: $black;
+          width: 40%;
+          float: right;
+          margin-top: 16px;
+      }
+    }
+
+    &.onlyAfter {
+      &::after {
+          content: '';
+          display: inline-block;
+          height: 1px;
+          background: $black;
+          width: 85%;
+          float: right;
+          margin-top: 16px;
+      }
     }
 }
+
 p {
     color: #999;
 }
@@ -50,16 +68,19 @@ p {
         font-weight: bold;
         font-size: 2em;
         letter-spacing: 0px;
-        &::before {
-            content: '';
-            display: inline-block;
-            height: 1px;
-            background: $black;
-            width: 30%;
-            float: left;
-            margin-top: 16px;
+        &.before {
+          &::before {
+              content: '';
+              display: inline-block;
+              height: 1px;
+              background: $black;
+              width: 30%;
+              float: left;
+              margin-top: 16px;
+          }
         }
-        &::after {
+        &.after {
+          &::after {
             content: '';
             display: inline-block;
             height: 1px;
@@ -67,6 +88,18 @@ p {
             width: 30%;
             float: right;
             margin-top: 16px;
+          }
+        }
+        &.onlyAfter {
+          &::after {
+              content: '';
+              display: inline-block;
+              height: 1px;
+              background: $black;
+              width: 80%;
+              float: right;
+              margin-top: 16px;
+          }
         }
     }
 }
