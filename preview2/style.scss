@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Raleway:400,500,600,700,800,900|Roboto:400,500,700,900|Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+$black: #161616;
+$beige: #F4EBDE;
+$darkbeige: #7D745E;
+$montserrat: 'Montserrat', sans-serif;
+$raleway: 'Raleway', sans-serif;
+$roboto: 'roboto', sans-serif;
+$robotoCondensed: 'Roboto Condensed', sans-serif;
+$sairaCondensed: 'Saira Extra Condensed', sans-serif;
+$yeseva-one: 'Yeseva One', sans-serif;
+$karla: 'Karla', sans-serif;
+
+html, body {
+  font-family: $karla;
+  letter-spacing: 1.5px;
+}
+
+p {
+    color: #0f0f0f;
+}
+
+hr {
+  border-top: 1px solid $black;
+}
+
+.title {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h2 {
+    font-size: 2em;
+  }
+  p {
+    letter-spacing: 0.4em;
+  }
+  a {
+    color: $black;
+    opacity: 1;
+    transition: 0.2s all;
+
+    &:hover {
+      color: darken($beige, 30%);
+      opacity: 0.6;
+    }
+  }
+}

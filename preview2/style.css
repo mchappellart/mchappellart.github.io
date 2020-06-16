@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900|Raleway:400,500,600,700,800,900|Roboto:400,500,700,900|Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+html, body {
+  font-family: "Karla", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+p {
+  color: #0f0f0f;
+}
+
+hr {
+  border-top: 1px solid #161616;
+}
+
+.title {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title h2 {
+  font-size: 2em;
+}
+.title p {
+  letter-spacing: 0.4em;
+}
+.title a {
+  color: #161616;
+  opacity: 1;
+  transition: 0.2s all;
+}
+.title a:hover {
+  color: #cea56b;
+  opacity: 0.6;
+}
+
+/*# sourceMappingURL=style.css.map */
