@@ -15,6 +15,29 @@ hr {
   border-top: 1px solid #161616;
 }
 
+.side {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.side p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  padding: 1rem 2rem;
+  color: #969696;
+  transform: rotate(180deg);
+}
+.side .line {
+  width: 1px;
+  height: 50px;
+  margin: 0 auto;
+  border-right: 1px solid #c9c9c9;
+}
+
 .title {
   height: 100vh;
   display: flex;
@@ -28,13 +51,46 @@ hr {
   letter-spacing: 0.4em;
 }
 .title a {
-  color: #161616;
+  color: #494949;
   opacity: 1;
   transition: 0.2s all;
 }
 .title a:hover {
   color: #cea56b;
   opacity: 0.6;
+}
+
+.scroll {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.scroll .dots p {
+  letter-spacing: 0.2em;
+  font-size: 0.7em;
+}
+.scroll .dots #dot1 {
+  background: #161616;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin: 0.7em auto;
+}
+.scroll .dots #dot2 {
+  background: #161616;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin: 0.7em auto;
+}
+.scroll .dots #dot3 {
+  background: #161616;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  margin: 0.7em auto;
 }
 
 /*# sourceMappingURL=style.css.map */
