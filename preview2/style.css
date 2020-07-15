@@ -93,4 +93,48 @@ hr {
   margin: 0.7em auto;
 }
 
+.navigation a {
+  color: #161616;
+  margin: 1.25em 1.5em;
+  letter-spacing: 0.1rem;
+}
+
+.about {
+  height: 100vh;
+}
+.about h1 {
+  font-size: 7rem;
+  font-family: "Yeseva One", sans-serif;
+}
+.about a {
+  color: #161616;
+  transition: 0.2s all;
+}
+.about a:hover {
+  color: #cea56b;
+}
+.about .content {
+  height: 100%;
+}
+.about .button {
+  background: #161616;
+  color: white;
+  font-size: 0.9em;
+  letter-spacing: 0.2em;
+  border-radius: 2px;
+  padding: 1.75em 6em;
+}
+.about .button:hover {
+  background-color: #cea56b;
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .about h1 {
+    font-size: 4rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
