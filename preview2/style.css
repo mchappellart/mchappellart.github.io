@@ -175,6 +175,12 @@ hr {
   letter-spacing: 0.2em;
   border: 1px solid white;
   padding: 1em 1.5em;
+  transition: 0.2s all;
+}
+.call-to-action a:hover {
+  border: 1px solid #cea56b;
+  color: #cea56b;
+  text-decoration: none;
 }
 
 .footer {
@@ -189,6 +195,13 @@ hr {
 }
 .footer p .bigger {
   font-size: 1.4em;
+}
+.footer a {
+  color: #161616;
+  transition: 0.2s all;
+}
+.footer a:hover {
+  color: #cea56b;
 }
 
 @media (max-width: 576px) {

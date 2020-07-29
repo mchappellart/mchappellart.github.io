@@ -204,6 +204,12 @@ hr {
     letter-spacing: 0.2em;
     border: 1px solid white;
     padding: 1em 1.5em;
+    transition: 0.2s all;
+    &:hover {
+      border: 1px solid darken($beige, 30%);
+      color: darken($beige, 30%);
+      text-decoration: none;
+    }
   }
 }
 
@@ -217,6 +223,13 @@ hr {
     }
     .bigger {
       font-size: 1.4em;
+    }
+  }
+  a {
+    color: $black;
+    transition: 0.2s all;
+    &:hover {
+      color: darken($beige, 30%);
     }
   }
 }
