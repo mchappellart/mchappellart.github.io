@@ -112,7 +112,7 @@ hr {
 .navigation {
   a {
     color: $black;
-    margin: 1.25em 1.5em;
+    // margin: 1.25em 1.5em;
     letter-spacing: 0.1rem;
   }
 }
@@ -130,6 +130,39 @@ hr {
       color: darken($beige, 30%);
     }
   }
+  .content {
+    height: 100%
+  }
+  .button {
+    background: $black;
+    color: white;
+    font-size: 0.9em;
+    letter-spacing: 0.2em;
+    border-radius: 2px;
+    padding:1.75em 6em;
+    &:hover{
+      background-color: darken($beige, 30%);
+      color: white;
+      opacity: 0.6;
+      text-decoration: none;
+    }
+  }
+}
+
+.about {
+  min-height: 100vh;
+  h1 {
+    font-size: 4rem;
+    font-family: $yeseva-one;
+  }
+  a {
+    color: $black;
+    transition: 0.2s all;
+    &:hover {
+      color: darken($beige, 30%);
+    }
+  }
+
   .content {
     height: 100%
   }
