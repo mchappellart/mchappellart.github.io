@@ -133,10 +133,20 @@ hr {
 
 .work {
   width: 80%;
+  min-height: 100vh;
 }
 .work h1 {
   font-family: "Yeseva One", sans-serif;
   font-size: 3em;
+}
+.work a {
+  color: #161616;
+  transition: 0.2s all;
+  font-size: 0.8em;
+}
+.work a:hover {
+  color: #cea56b;
+  text-decoration: none;
 }
 .work button {
   background: white;
@@ -150,6 +160,35 @@ hr {
 }
 .work .piece img {
   border-radius: 10px;
+}
+
+.call-to-action {
+  background: #161616;
+}
+.call-to-action h1 {
+  font-family: "Yeseva One", sans-serif;
+  font-size: 5em;
+  color: white;
+}
+.call-to-action a {
+  color: white;
+  letter-spacing: 0.2em;
+  border: 1px solid white;
+  padding: 1em 1.5em;
+}
+
+.footer {
+  border-top: 1px solid #161616;
+}
+.footer p {
+  letter-spacing: 0.2em;
+  font-size: 1em;
+}
+.footer p .smaller {
+  font-size: 0.6em;
+}
+.footer p .bigger {
+  font-size: 1.4em;
 }
 
 @media (max-width: 576px) {

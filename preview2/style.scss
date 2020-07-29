@@ -151,12 +151,23 @@ hr {
 
 .work {
   width: 80%;
+  min-height: 100vh;
   h1 {
     font-family: $yeseva-one;
     font-size: 3em;
   }
+  a {
+    color: $black;
+    transition: 0.2s all;
+    font-size: 0.8em;
+    &:hover {
+      color: darken($beige, 30%);
+      text-decoration: none;
+    }
+  }
   button {
     background: white;
+
     border-style: none;
     transition: 0.2s all;
     &:hover {
@@ -178,6 +189,34 @@ hr {
   .piece {
     img {
       border-radius: 10px;
+    }
+  }
+}
+
+.call-to-action {
+  background: $black;
+  h1 {
+    font-family: $yeseva-one; font-size: 5em;
+    color: white;
+  }
+  a {
+    color: white;
+    letter-spacing: 0.2em;
+    border: 1px solid white;
+    padding: 1em 1.5em;
+  }
+}
+
+.footer {
+  border-top: 1px solid $black;
+  p {
+    letter-spacing: 0.2em;
+    font-size: 1em;
+    .smaller {
+      font-size: 0.6em;
+    }
+    .bigger {
+      font-size: 1.4em;
     }
   }
 }
