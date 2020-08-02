@@ -15,7 +15,8 @@
 
   </head>
   <body>
-    <div class="navigation fixed-top mt-4 d-md-block d-none">
+    <!-- Navigation -->
+    <div class="navigation fixed-top mt-4 d-md-block d-sm-none d-none">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col">
@@ -26,109 +27,84 @@
           </div>
           <div class="col-md d-flex justify-content-end">
             <div class="nav">
-              <a href="./index.html">HOME</a>
-              <a href="./about.html">ABOUT</a>
-              <a href="./work.html">WORK</a>
-              <a href="./contact.html">CONTACT</a>
+              <a href="./index.html" class="mx-sm-2 mx-lg-4 my-3">HOME</a>
+              <a href="./about.html" class="mx-sm-2 mx-lg-4 my-3">ABOUT</a>
+              <a href="./work.html" class="mx-sm-2 mx-lg-4 my-3">WORK</a>
+              <a href="./contact.html" class="mx-sm-2 mx-lg-4 my-3">CONTACT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation -->
+    <div class="navigation fixed-top mt-4 d-md-none d-sm-block">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col d-flex align-items-center">
+            <a href="./index.html" class='m-0'><img src="./img/logo.png" class="mx-auto d-block" width="30"></a>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <div class="dropdown show">
+              <a class="dropdown-toggle" href="" id="dropdownMenuLink" data-toggle="dropdown"><i class="fas fa-bars"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="./index.html">HOME</a>
+                <a class="dropdown-item" href="./about.html">ABOUT</a>
+                <a class="dropdown-item" href="./work.html">WORK</a>
+                <a class="dropdown-item" href="./contact.html">CONTACT</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Content -->
-    <div class="header">
-      <div class="side">
-        <div>
-          <p>Gamedev</p>
-          <div class="line"></div>
-          <p>Artist</p>
-          <div class="line"></div>
-          <p>Designer</p>
-        </div>
-      </div>
-      <div class="scroll">
-        <div class="dots">
-          <div id="dot1"></div>
-          <div id="dot2"></div>
-          <div id="dot3"></div>
-          <p><b>SCROLL FOR MORE</b></p>
-        </div>
-      </div>
-      <div class="title" id="home">
-        <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-5 text-center">
-              <img src="./img/logo.png" class="mx-auto d-block" width="90">
-              <hr class="my-4">
-              <p class="mb-4">MADELEINE CHAPPELL</p>
-              <h2 class="social">
-                <a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-twitch mx-4"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a>
-              </h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <!-- Work -->
-    <div class="work d-flex align-items-center my-5 mx-auto" id="work">
+    <div class="work d-flex align-items-center pt-5 my-5 mx-auto" id="work">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 mb-4">
-            <h1>projects</h1>
-            <!-- <div class="buttons my-4">
+            <h1 class="mt-5">projects</h1>
+            <div class="buttons my-4">
               <button tabindex="1">BRANDING <i class="fas fa-times ml-1"></i></button>
               <button tabindex="2">WEBSITE <i class="fas fa-times ml-1"></i></button>
               <button tabindex="3">PACKAGING <i class="fas fa-times ml-1"></i></button>
               <button tabindex="4">UI <i class="fas fa-times ml-1"></i></button>
               <button tabindex="5">ILLUSTRATION <i class="fas fa-times ml-1"></i></button>
               <button tabindex="6">AR/VR <i class="fas fa-times ml-1"></i></button>
-            </div> -->
-          </div>
-          <div class="col-md-4">
-            <div class="piece">
-              <img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block">
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="piece">
-              <img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block">
+              <a href=""><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+              <div class="over">
+                &nbsp;
+              </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="piece">
-              <img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block">
+              <a href=""><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
             </div>
           </div>
-          <div class="col-md-4 d-none d-sm-none d-md-block">
+          <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="piece">
-              <img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block">
+              <a href=""><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
             </div>
           </div>
-          <div class="col-md-4 d-none d-sm-none d-md-block">
+          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
             <div class="piece">
-              <img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block">
+              <a href=""><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
             </div>
           </div>
-          <div class="col-md-4 d-none d-sm-none d-md-block">
+          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
             <div class="piece">
-              <img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block">
+              <a href=""><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
             </div>
           </div>
-          <div class='col-12 d-flex justify-content-center'>
-            <a href=""><b>SEE MORE<i class="fas fa-arrow-right ml-3"></i></b></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Call to Action -->
-    <div class="call-to-action mb-5">
-      <div class="container-fluid py-5">
-        <div class="row py-5">
-          <div class="col-12 d-md-flex align-items-md-center justify-content-md-center text-center">
-            <h1 class="d-block mb-5 mt-0 my-md-5">interested in my work?</h1>
-            <a href="./contact" class="d-block mx-5">CONTACT ME</a>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
+            <div class="piece">
+              <a href=""><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+            </div>
           </div>
         </div>
       </div>
@@ -151,30 +127,6 @@
         </div>
       </div>
     </div>
-    <!-- Contact -->
-    <!-- <div class="contact" id="contact">
-      <div class="container-fluid content d-flex align-items-center">
-        <div class="row mt-5 justify-content-center">
-          <div class="col-md-8">
-            <h1>say hello</h1>
-            <div class="row">
-              <div class="col-md-7 ">
-                <p class="my-md-5 my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quas, recusandae, omnis expedita impedit animi in sequi magni molestiae, amet totam hic fuga consequatur qui esse deserunt excepturi eius id.</p>
-                <a href="" class="button d-inline-block mb-5">EMAIL ME</a>
-              </div>
-              <div class="col-md-5">
-                <h6 class="mb-4">EMAIL</h6>
-                <p><a href="">mchappellart@gmail.com</a></p>
-                <h6 class="mt-5 mb-4">FOLLOW ME</h6>
-                <p><a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fab fa-twitch mx-2"></i></a>
-                <a href=""><i class="fab fa-linkedin-in"></i></a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <!-- End Content -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
