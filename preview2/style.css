@@ -195,6 +195,7 @@ hr {
 .work .piece {
   transition: 0.3s transform;
   transition-timing-function: ease-in-out;
+  position: relative;
 }
 .work .piece img {
   border-radius: 10px;
@@ -204,10 +205,27 @@ hr {
   transform: translateY(-3px);
 }
 .work .piece .over {
+  top: 0px;
   position: absolute;
   width: 100%;
   height: 100%;
-  background: black;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  transition: 0.3s all;
+  transition-timing-function: ease-in-out;
+}
+.work .piece .over p, .work .piece .over h1 {
+  color: rgba(255, 255, 255, 0);
+  transition: 0.3s all;
+}
+.work .piece .over p {
+  font-size: 0.8em;
+}
+.work .piece .over:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+.work .piece .over:hover p, .work .piece .over:hover h1 {
+  color: white;
 }
 
 .call-to-action {
