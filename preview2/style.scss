@@ -222,6 +222,19 @@ hr {
     //             0 4px 4px rgba(206,165,107,0.12);
     // }
   }
+  .back-button {
+    font-size: 2.5em;
+    box-shadow: 0 1px 1px rgba(206,165,107,0.12),
+              0 2px 2px rgba(206,165,107,0.12),
+              0 4px 4px rgba(206,165,107,0.12);
+    &:hover {
+      box-shadow: 0 1px 1px rgba(206,165,107,0.12),
+                0 2px 2px rgba(206,165,107,0.12),
+                0 4px 4px rgba(206,165,107,0.12),
+                0 8px 8px rgba(206,165,107,0.12),
+                0 16px 16px rgba(206,165,107,0.12);
+    }
+  }
   .piece {
     transition: 0.3s transform;
     transition-timing-function: ease-in-out;
@@ -251,6 +264,15 @@ hr {
         background: rgba(0, 0, 0, 0.3);
         p, h1 { color: rgba(255, 255, 255, 1); }
       }
+    }
+  }
+  .content {
+    font-family: $karla;
+    h1 {
+      font-size: 2em;  font-weight: bold; font-family: $karla;
+    }
+    h2 {
+      font-size: 1.8em; font-weight: bold; font-family: $karla;
     }
   }
 }
