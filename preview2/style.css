@@ -59,6 +59,15 @@ hr {
   color: #cea56b;
   opacity: 0.6;
 }
+.title .profession .line {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  margin: auto 0;
+  vertical-align: middle;
+  border-top: 1px solid #c9c9c9;
+}
 
 .scroll {
   position: absolute;
