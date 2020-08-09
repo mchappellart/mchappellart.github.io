@@ -17,6 +17,7 @@ $karla: 'Karla', sans-serif;
 html, body {
   font-family: $karla;
   letter-spacing: 1.5px;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -172,6 +173,7 @@ hr {
   a {
     color: $black;
     transition: 0.2s all;
+    text-decoration: underline;
     &:hover {
       color: darken($beige, 30%);
     }

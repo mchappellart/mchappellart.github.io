@@ -5,6 +5,7 @@
 html, body {
   font-family: "Karla", sans-serif;
   letter-spacing: 1.5px;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -152,6 +153,7 @@ hr {
 .about a {
   color: #161616;
   transition: 0.2s all;
+  text-decoration: underline;
 }
 .about a:hover {
   color: #cea56b;
