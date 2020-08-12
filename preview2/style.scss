@@ -351,6 +351,19 @@ hr {
   .work {
     width: 100%;
   }
+  .call-to-action {
+    h1 {
+      font-family: $yeseva-one; font-size: 3em;
+      color: white;
+    }
+  }
+  .title {
+    .profession {
+      p {
+        font-size: 0.8em;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {

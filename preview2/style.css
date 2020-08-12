@@ -320,6 +320,16 @@ hr {
   .work {
     width: 100%;
   }
+
+  .call-to-action h1 {
+    font-family: "Yeseva One", sans-serif;
+    font-size: 3em;
+    color: white;
+  }
+
+  .title .profession p {
+    font-size: 0.8em;
+  }
 }
 @media (max-width: 768px) {
   .about h1 {
