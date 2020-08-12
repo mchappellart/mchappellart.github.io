@@ -258,6 +258,21 @@ hr {
   font-weight: bold;
   font-family: "Karla", sans-serif;
 }
+.work input[type=checkbox] {
+  appearance: none;
+}
+.work .checkbox-filter {
+  padding: 2px 10px;
+  border: 1px solid #161616;
+  color: black;
+}
+.work .checkbox-filter:after {
+  content: attr(name);
+}
+.work .checkbox-filter:checked:after {
+  font-weight: bold;
+  content: attr(name) " x";
+}
 
 .call-to-action {
   background: #161616;

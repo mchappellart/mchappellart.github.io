@@ -216,7 +216,6 @@ hr {
   }
   button {
     background: white;
-
     border-style: none;
     transition: 0.2s all;
     &:hover {
@@ -287,6 +286,23 @@ hr {
     h2 {
       font-size: 1.8em; font-weight: bold; font-family: $karla;
     }
+  }
+  input[type=checkbox] {
+      appearance: none;
+  }
+  .checkbox-filter {
+      padding: 2px 10px;
+      border: 1px solid $black;
+      color: black;
+      &:after {
+          content: attr(name);
+      }
+      &:checked {
+          &:after {
+              font-weight: bold;
+              content: attr(name) ' x';
+          }
+      }
   }
 }
 

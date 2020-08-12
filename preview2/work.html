@@ -34,11 +34,19 @@
               <button tabindex="5">ILLUSTRATION <i class="fas fa-times ml-1"></i></button>
               <button tabindex="6">AR/VR <i class="fas fa-times ml-1"></i></button>
             </div>
+            <form id="filter">
+                <input type="checkbox" class="checkbox-filter" value="Branding" name="Branding" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter" value="Website" name="Website" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter" value="Packaging" name="Packaging" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter" value="UI" name="UI" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter" value="Illustration" name="Illustration" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter" value="AR/VR" name="AR/VR" onchange="handleCheckboxes(this)">
+            </form>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="piece" data-categories="Branding|Packaging">
-              <a href="./portfolio/portfolio-page.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
-              <a href="./portfolio/portfolio-page.html" class="over d-flex align-items-center justify-content-center">
+            <div class="piece" data-categories="Branding|Packaging|Web Design|Web Creation">
+              <a href="./portfolio/portfolio-onhand.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio/portfolio-onhand.html" class="over d-flex align-items-center justify-content-center">
                 <div class="text-center">
                   <h1>OnHand</h1>
                   <p class="text-center">BRANDING | PACKAGING | WEB DESIGN | WEB CREATION</p>
@@ -47,20 +55,20 @@
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="piece">
-              <a href="./portfolio/portfolio-page.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
-              <a href="./portfolio/portfolio-page.html" class="over d-flex align-items-center justify-content-center">
+            <div class="piece" data-categories="UI Design|Branding|Illustration|Character Design|VR">
+              <a href="./portfolio/portfolio-discovr.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio/portfolio-discovr.html" class="over d-flex align-items-center justify-content-center">
                 <div class="text-center">
                   <h1>DiscoVR</h1>
-                  <p class="text-center">UI DESIGN | BRANDING | ILLUSTRATION | CHARACTER DESIGN</p>
+                  <p class="text-center">UI DESIGN | BRANDING | ILLUSTRATION | CHARACTER DESIGN | VR</p>
                 </div>
               </a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
-            <div class="piece">
-              <a href="./portfolio/portfolio-page.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
-              <a href="./portfolio/portfolio-page.html" class="over d-flex align-items-center justify-content-center">
+            <div class="piece" data-categories="Web Design">
+              <a href="./portfolio/portfolio-genos.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio/portfolio-genos.html" class="over d-flex align-items-center justify-content-center">
                 <div class="text-center">
                   <h1>Genos</h1>
                   <p class="text-center">WEB DESIGN</p>
@@ -68,10 +76,10 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
-            <div class="piece">
-              <a href="./portfolio/portfolio-page.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
-              <a href="./portfolio/portfolio-page.html" class="over d-flex align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="piece" data-categories="Branding">
+              <a href="./portfolio/portfolio-unseeliestudios.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio/portfolio-unseeliestudios.html" class="over d-flex align-items-center justify-content-center">
                 <div class="text-center">
                   <h1>Unseelie Studios</h1>
                   <p class="text-center">BRANDING</p>
@@ -79,10 +87,10 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
-            <div class="piece">
-              <a href="./portfolio/portfolio-page.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
-              <a href="./portfolio/portfolio-page.html" class="over d-flex align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="piece" data-categories="Illustration|Branding|Streaming">
+              <a href="./portfolio/portfolio-streamerbranding.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio/portfolio-streamerbranding.html" class="over d-flex align-items-center justify-content-center">
                 <div class="text-center">
                   <h1>Streamer Branding</h1>
                   <p class="text-center">ILLUSTRATION | BRANDING | STREAMING</p>
@@ -90,10 +98,10 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
-            <div class="piece">
-              <a href="./portfolio/portfolio-page.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
-              <a href="./portfolio/portfolio-page.html" class="over d-flex align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="piece" data-categories="Illustration|Design|Branding">
+              <a href="./portfolio/portfolio-streamerlogo.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio/portfolio-streamerlogo.html" class="over d-flex align-items-center justify-content-center">
                 <div class="text-center">
                   <h1>Streamer Logo</h1>
                   <p class="text-center">ILLUSTRATION | DESIGN | BRANDING</p>
@@ -101,10 +109,10 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
-            <div class="piece">
-              <a href="./portfolio/portfolio-page.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
-              <a href="./portfolio/portfolio-page.html" class="over d-flex align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="piece" data-categories="Branding|Design|Illustration">
+              <a href="./portfolio/portfolio-streambranding.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio/portfolio-streambranding.html" class="over d-flex align-items-center justify-content-center">
                 <div class="text-center">
                   <h1>Stream Branding</h1>
                   <p class="text-center">ILLUSTRATION | DESIGN | BRANDING</p>
@@ -112,10 +120,10 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
-            <div class="piece">
-              <a href="./portfolio/portfolio-page.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
-              <a href="./portfolio/portfolio-page.html" class="over d-flex align-items-center justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="piece" data-categories="Illustration">
+              <a href="./portfolio/portfolio-art.html"><img src="https://via.placeholder.com/600x400" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio/portfolio-art.html" class="over d-flex align-items-center justify-content-center">
                 <div class="text-center">
                   <h1>Art</h1>
                   <p class="text-center">ILLUSTRATION</p>
@@ -136,5 +144,34 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        let filterArray = [];
+        function handleCheckboxes(checkbox) {
+            console.log(checkbox.value);
+            if (checkbox.checked) {
+                filterArray.push(checkbox.value);
+                filteringWork();
+                console.log(filterArray);
+            } else {
+                filteringWork();
+                filterArray = filterArray.filter(cat => cat !== checkbox.value);
+                console.log(filterArray);
+            }
+        }
+        function filteringWork() {
+            let work = Array.from(document.getElementsByClassName('piece'));
+            for (let i = 0; i < work.length; i ++) {
+                console.log(work[i].getAttribute('data-categories').split('|'));
+                console.log(work[i].getAttribute('data-categories').split('|').includes(...filterArray));
+                if (work[i].getAttribute('data-categories').split('|').includes(...filterArray)) {;
+                    work[i].parentNode.classList.remove('d-none');
+                    console.log("I'm back!");
+                } else {
+                    work[i].parentNode.classList.add('d-none');
+                    console.log("I've been removed");
+                }
+            }
+        }
+    </script>
   </body>
 </html>
