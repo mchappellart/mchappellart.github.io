@@ -35,12 +35,15 @@
               <button tabindex="6">AR/VR <i class="fas fa-times ml-1"></i></button>
             </div>
             <form id="filter">
-                <input type="checkbox" class="checkbox-filter" value="Branding" name="Branding" onchange="handleCheckboxes(this)">
-                <input type="checkbox" class="checkbox-filter" value="Website" name="Website" onchange="handleCheckboxes(this)">
-                <input type="checkbox" class="checkbox-filter" value="Packaging" name="Packaging" onchange="handleCheckboxes(this)">
-                <input type="checkbox" class="checkbox-filter" value="UI" name="UI" onchange="handleCheckboxes(this)">
-                <input type="checkbox" class="checkbox-filter" value="Illustration" name="Illustration" onchange="handleCheckboxes(this)">
-                <input type="checkbox" class="checkbox-filter" value="AR/VR" name="AR/VR" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter mt-3 mt-sm-0" value="Branding" name="Branding" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter mt-3 mt-sm-0" value="Design" name="Design" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter mt-3 mt-sm-0" value="Web Design" name="Web" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter mt-3 mt-sm-0" value="Packaging" name="Packaging" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter mt-3 mt-sm-0" value="UI Design" name="UI" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter mt-3 mt-sm-0" value="Illustration" name="Illustration" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter mt-3 mt-sm-0" value="VR" name="VR" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter mt-3 mt-sm-0" value="Character Design" name="Character Design" onchange="handleCheckboxes(this)">
+                <input type="checkbox" class="checkbox-filter mt-3 mt-sm-0" value="Streaming" name="Streaming" onchange="handleCheckboxes(this)">
             </form>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-12">
@@ -153,17 +156,17 @@
                 filteringWork();
                 console.log(filterArray);
             } else {
-                filteringWork();
                 filterArray = filterArray.filter(cat => cat !== checkbox.value);
+                filteringWork();
                 console.log(filterArray);
             }
         }
         function filteringWork() {
             let work = Array.from(document.getElementsByClassName('piece'));
             for (let i = 0; i < work.length; i ++) {
-                console.log(work[i].getAttribute('data-categories').split('|'));
-                console.log(work[i].getAttribute('data-categories').split('|').includes(...filterArray));
-                if (work[i].getAttribute('data-categories').split('|').includes(...filterArray)) {;
+                //If it includes words in the filterArray then show else remove from the page
+                // if (work[i].getAttribute('data-categories').split('|').includes(...filterArray) || filterArray.length === 0) {
+                if (filterArray.every(cat => work[i].getAttribute('data-categories').split('|').includes(cat)) || filterArray.length === 0) {
                     work[i].parentNode.classList.remove('d-none');
                     console.log("I'm back!");
                 } else {
