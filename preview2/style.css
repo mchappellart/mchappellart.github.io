@@ -344,6 +344,26 @@ hr {
   .title .profession p {
     font-size: 0.8em;
   }
+
+  .scroll .dots p {
+    letter-spacing: 0.1em;
+    font-size: 0.5em;
+  }
+  .scroll .dots #dot1 {
+    width: 3px;
+    height: 3px;
+    margin: 0.3em auto;
+  }
+  .scroll .dots #dot2 {
+    width: 5px;
+    height: 5px;
+    margin: 0.3em auto;
+  }
+  .scroll .dots #dot3 {
+    width: 8px;
+    height: 8px;
+    margin: 0.3em auto;
+  }
 }
 @media (max-width: 768px) {
   .about h1 {
