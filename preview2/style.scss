@@ -253,7 +253,7 @@ hr {
     position:relative;
 
     img {
-      border-radius: 10px;
+      border-radius: 5px;
       object-fit: cover;
     }
     &:hover {
@@ -269,11 +269,11 @@ hr {
       }
       top:0px; position: absolute;
       width: 100%; height: 100%;
-      background: rgba(0, 0, 0, 0);
-      border-radius: 10px;
+      background: rgba(125, 116, 94, 0);
+      border-radius: 5px;
       transition: 0.3s all; transition-timing-function: ease-in-out;
       &:hover {
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba(125, 116, 94, 0.9);
         p, h1 { color: rgba(255, 255, 255, 1); }
       }
     }
