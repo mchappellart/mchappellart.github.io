@@ -269,6 +269,20 @@ hr {
 .work .checkbox-filter:after {
   content: attr(name);
 }
+.work .checkbox-filter:hover {
+  border: 1px solid #cea56b;
+  color: #cea56b;
+}
+.work .checkbox-filter:focus {
+  outline: none;
+  border: 2px solid #cea56b;
+}
+.work .checkbox-filter:focus:hover {
+  border: 2px solid #cea56b;
+}
+.work .checkbox-filter:checked {
+  border: 2px solid #161616;
+}
 .work .checkbox-filter:checked:after {
   font-weight: bold;
   content: attr(name) " x";

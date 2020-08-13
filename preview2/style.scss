@@ -297,7 +297,19 @@ hr {
       &:after {
           content: attr(name);
       }
+      &:hover {
+          border: 1px solid darken($beige, 30%);
+          color: darken($beige, 30%);
+      }
+      &:focus {
+          outline: none;
+          border: 2px solid darken($beige, 30%);
+          &:hover {
+              border: 2px solid darken($beige, 30%);
+          }
+      }
       &:checked {
+          border: 2px solid $black;
           &:after {
               font-weight: bold;
               content: attr(name) ' x';
