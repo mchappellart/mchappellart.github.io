@@ -184,6 +184,10 @@ hr {
   font-family: "Yeseva One", sans-serif;
   font-size: 3em;
 }
+.work h2 {
+  font-family: "Yeseva One", sans-serif;
+  font-size: 6em;
+}
 .work a {
   color: #161616;
   transition: 0.2s all;
@@ -205,10 +209,11 @@ hr {
 }
 .work .back-button {
   font-size: 2.5em;
-  box-shadow: 0 1px 1px rgba(206, 165, 107, 0.12), 0 2px 2px rgba(206, 165, 107, 0.12), 0 4px 4px rgba(206, 165, 107, 0.12);
+  border: 1px solid #161616;
+  border-radius: 2px;
 }
 .work .back-button:hover {
-  box-shadow: 0 1px 1px rgba(206, 165, 107, 0.12), 0 2px 2px rgba(206, 165, 107, 0.12), 0 4px 4px rgba(206, 165, 107, 0.12), 0 8px 8px rgba(206, 165, 107, 0.12), 0 16px 16px rgba(206, 165, 107, 0.12);
+  border: 1px solid #F4EBDE;
 }
 .work .piece {
   transition: 0.3s transform;
