@@ -1,6 +1,6 @@
 document.getElementById('navigation').innerHTML =
 `
-<div class="navigation fixed-top mt-4 d-md-block d-sm-none d-none">
+<div class="navigation fixed-top py-3 d-md-block d-sm-none d-none">
   <div class="container-fluid">
     <div class="row align-items-center">
       <div class="col">
@@ -20,7 +20,7 @@ document.getElementById('navigation').innerHTML =
     </div>
   </div>
 </div>
-<div class="navigation fixed-top mt-4 d-md-none d-sm-block">
+<div class="navigation fixed-top py-3 d-md-none d-sm-block">
   <div class="container-fluid">
     <div class="row align-items-center">
       <div class="col d-flex align-items-center">

@@ -260,6 +260,7 @@ hr {
 }
 .work input[type=checkbox] {
   appearance: none;
+  -moz-appearance: none;
 }
 .work .checkbox-filter {
   padding: 2px 10px;
@@ -370,6 +371,12 @@ hr {
     font-size: 4rem;
   }
 }
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
