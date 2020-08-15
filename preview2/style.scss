@@ -242,16 +242,8 @@ hr {
     font-size: 2.5em;
     border: 1px solid $black;
     border-radius: 2px;
-    // box-shadow: 0 1px 1px rgba(206,165,107,0.12),
-    //           0 2px 2px rgba(206,165,107,0.12),
-    //           0 4px 4px rgba(206,165,107,0.12);
     &:hover {
         border: 1px solid $beige;
-      // box-shadow: 0 1px 1px rgba(206,165,107,0.12),
-      //           0 2px 2px rgba(206,165,107,0.12),
-      //           0 4px 4px rgba(206,165,107,0.12),
-      //           0 8px 8px rgba(206,165,107,0.12),
-      //           0 16px 16px rgba(206,165,107,0.12);
     }
   }
   .piece {
@@ -370,6 +362,17 @@ hr {
 @media (max-width: 576px) {
   .work {
     width: 100%;
+    h2 {
+      font-size: 3em;
+    }
+    .back-button {
+      font-size: 1.5em;
+      border: 1px solid $black;
+      border-radius: 2px;
+      &:hover {
+          border: 1px solid $beige;
+      }
+    }
   }
   .call-to-action {
     h1 {
