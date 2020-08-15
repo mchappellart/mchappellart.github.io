@@ -9,7 +9,7 @@ document.getElementById('footer').innerHTML =
     <div class="col-6 d-flex justify-content-end">
       <p>
         <a href="https://twitter.com/notguilmug" target="_blank"><i class="fab fa-twitter bigger mx-1"></i></a>
-        <a href="https://www.instagram.com/mchappellart/?hl=en" target="_blank"><i class="fab fa-twitch mx-1"></i></a>
+        <a href="https://www.instagram.com/mchappellart/?hl=en" target="_blank"><i class="fab fa-twitch bigger mx-1"></i></a>
         <a href="https://www.linkedin.com/in/madeleine-chappell/" target="_blank"><i class="fab fa-linkedin-in bigger mx-1"></i></a>
       </p>
     </div>

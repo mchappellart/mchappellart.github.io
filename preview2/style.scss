@@ -122,6 +122,9 @@ hr {
 }
 
 .navigation {
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(206,165,107,0.12),
+            0 2px 2px rgba(206,165,107,0.12);
   a {
     color: $black;
     // margin: 1.25em 1.5em;

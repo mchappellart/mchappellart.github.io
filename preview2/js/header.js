@@ -4,7 +4,7 @@ document.getElementById('navigation').innerHTML =
   <div class="container-fluid">
     <div class="row align-items-center">
       <div class="col">
-        <p class="mx-4">MADELEINE CHAPPELL</p>
+        <p class="mx-4 mb-0"><a href="./index.html">MADELEINE CHAPPELL</a></p>
       </div>
       <div class="col-md-1">
         <a href="./index.html" class='m-0'><img src="./img/logo.png" class="mx-auto d-block" width="50"></a>
