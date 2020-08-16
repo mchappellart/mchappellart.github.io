@@ -6,69 +6,158 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/6bf4230311.js"></script>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
     <link rel="stylesheet" href="./style.css">
 
-    <title>Madeleine Chappell's Portfolio Website | Graphic Designer & Artist</title>
+    <title>Madeleine Chappell's Website | Designer - Artist - Game Dev</title>
 
 
   </head>
   <body>
-    <!-- Content -->
-    <!-- header -->
-    <div class="container mb-3 mt-5">
-        <div class="row mb-5">
-            <div class="col">
-                <img src="./img/logo.png" class="mx-auto d-block" width="150">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col text-center">
-                <p>HELLO. MY NAME IS MADELEINE CHAPPELL. I AM A GRAPHIC DESIGNER, ARTIST AND TWITCH STREAMER.</p>
-                <p><a class="button d-inline-block mt-4">Portfolio coming soon.</a></p>
-            </div>
-        </div>
+    <!-- Navigation -->
+    <div class="d-none" id="navigation">
+      <script src="./js/header.js"></script>
     </div>
-    <!-- Carousel -->
-    <div class="container-fluid px-3 py-3">
-      <div class="row">
-        <div class="col-12 px-0">
-          <section class="variable-width slider">
-            <div>
-              <img class="img-fluid mx-auto d-block" src="./img/LukPaper.png" width="344">
+    <!-- Content -->
+    <div class="header">
+      <div class="side">
+        <div class="d-none d-sm-none d-md-block">
+          <p>Game Dev</p>
+          <div class="line"></div>
+          <p>Artist</p>
+          <div class="line"></div>
+          <p>Designer</p>
+        </div>
+      </div>
+      </div>
+      <div class="scroll">
+        <a href="#work">
+          <div class="dots">
+            <div id="dot1"></div>
+            <div id="dot2"></div>
+            <div id="dot3"></div>
+            <p><b>SCROLL FOR MORE</b></p>
+          </div>
+        </a>
+      </div>
+      <div class="title" id="home">
+        <div class="container">
+          <div class="row d-flex mb-5 justify-content-center d-block d-sm-block d-md-none">
+            <div class="col-12 text-center">
+              <div class="profession">
+                <p>Designer <span class="line">&nbsp;</span> Artist <span class="line">&nbsp;</span> GameDev</p>
+              </div>
             </div>
-            <div>
-              <img class="img-fluid mx-auto d-block" src="./img/wk8_ mc_cake.png" width="400">
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-5 col-10 text-center">
+              <img src="./img/logo.png" class="mx-auto d-block" width="90">
+              <hr class="my-4">
+              <p class="mb-4">MADELEINE CHAPPELL</p>
+              <h2 class="social">
+                <a href="https://twitter.com/notguilmug" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.twitch.tv/notguilcup" target="_blank"><i class="fab fa-twitch mx-4"></i></a>
+                <a href="https://www.linkedin.com/in/madeleine-chappell/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </h2>
             </div>
-            <div>
-              <img class="img-fluid mx-auto d-block" src="./img/Nadir.png" width="709">
-            </div>
-            <div>
-              <img class="img-fluid mx-auto d-block" src="./img/Package_01.png" width="530">
-            </div>
-            <div>
-                <img class="img-fluid mx-auto d-block" src="./img/Peter.png" width="400">
-            </div>
-            <div>
-              <img class="img-fluid mx-auto d-block" src="./img/PodcastLogo.png" width="711">
-            </div>
-            <div>
-              <img class="img-fluid mx-auto d-block" src="./img/CB_Poster.png" width="399">
-            </div>
-          </section>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container my-4">
+    <!-- Work -->
+    <div class="work d-flex align-items-center my-5 mx-auto" id="work">
+      <div class="container-fluid">
         <div class="row">
-            <div class="col text-center social">
-                <h5><a href="https://www.instagram.com/mchappellart/" target="_blank"><i class="fab fa-instagram mx-2"></i></a><a href="https://twitter.com/mchappellart" target="_blank"><i class="fab fa-twitter mx-2"></i></a><a href="https://www.linkedin.com/in/madeleine-chappell/" target="_blank"><i class="fab fa-linkedin-in mx-2"></i></a></h5>
+          <div class="col-md-12 mb-4">
+            <h1>projects</h1>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="piece">
+              <a href="./portfolio-onhand.html"><img src="./img/onhand.jpg" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio-onhand.html" class="over d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                  <h1>OnHand</h1>
+                  <p class="text-center">BRANDING | PACKAGING | WEB DESIGN | WEB CREATION</p>
+                </div>
+              </a>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="piece">
+              <a href="./portfolio-discovr.html"><img src="./img/discovr.jpg" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio-discovr.html" class="over d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                  <h1>DiscoVR</h1>
+                  <p class="text-center">UI DESIGN | BRANDING | ILLUSTRATION | CHARACTER DESIGN</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="piece">
+              <a href="./portfolio-genos.html"><img src="./img/genos.jpg" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio-genos.html" class="over d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                  <h1>Genos</h1>
+                  <p class="text-center">WEB DESIGN</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
+            <div class="piece">
+              <a href="./portfolio-unseeliestudios.html"><img src="./img/unseeliestudios.jpg" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio-unseeliestudios.html" class="over d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                  <h1>Unseelie Studios</h1>
+                  <p class="text-center">BRANDING</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
+            <div class="piece">
+              <a href="./portfolio-streamerbranding.html"><img src="./img/streamerbranding.jpg" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio-streamerbranding.html" class="over d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                  <h1>Streamer Branding</h1>
+                  <p class="text-center">ILLUSTRATION | BRANDING | STREAMING</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 d-none d-sm-none d-md-block">
+            <div class="piece">
+              <a href="./portfolio-streamerlogo.html"><img src="./img/streamerlogo.jpg" class="img-fluid mb-4 mx-auto d-block"></a>
+              <a href="./portfolio-streamerlogo.html" class="over d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                  <h1>Streamer Logo</h1>
+                  <p class="text-center">ILLUSTRATION | DESIGN | BRANDING</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class='col-12 d-flex justify-content-center'>
+            <a href="./work.html"><b>SEE MORE<i class="fas fa-arrow-right ml-3"></i></b></a>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- Call to Action -->
+    <div class="call-to-action mb-5">
+      <div class="container-fluid py-5">
+        <div class="row py-5">
+          <div class="col-12 d-md-flex align-items-md-center justify-content-md-center text-center">
+            <h1 class="d-block mb-5 mt-0 my-md-5">interested in my work?</h1>
+            <a href="./contact.html" class="d-block mx-5">CONTACT ME</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer mx-md-5 mx-3" id="footer">
+      <script src="./js/footer.js"></script>
     </div>
     <!-- End Content -->
     <!-- Optional JavaScript -->
@@ -76,19 +165,22 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./slick/slick.min.js" type="text/javascript"></script>
-    <script>
-    $('.variable-width').slick({
-      dots: false,
-      infinite: true,
-      speed: 300,
-      autoplay: true,
-      autoplaySpeed: 10000,
-      arrows: false,
-      slidesToShow: 5,
-      centerMode: true,
-      variableWidth: true
-    });
+    <script type="text/javascript">
+        let navbar = document.getElementById('navigation');
+        let passed = false;
+        window.addEventListener( 'scroll', (event) => {
+            if (!passed) {
+                if (window.scrollY > window.outerHeight - 200) {
+                    navbar.classList.add('d-block');
+                    navbar.classList.add('fadeIn');
+                    navbar.classList.remove('d-none');
+                    passed = true;
+                } else  if (window.scrollY < window.outerHeight - 200) {
+                    navbar.classList.add('d-none');
+                    navbar.classList.remove('d-block');
+                }
+            }
+        });
     </script>
   </body>
 </html>
