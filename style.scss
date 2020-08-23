@@ -283,10 +283,11 @@ hr {
   .content {
     font-family: $karla;
     h1 {
-      font-size: 2em;  font-weight: bold; font-family: $karla;
+      font-size: 2em;  font-family: $yeseva-one;
+      padding-bottom: 1rem;
     }
     h2 {
-      font-size: 1.8em; font-weight: bold; font-family: $karla;
+      font-size: 1.8em; font-family: $karla;
     }
   }
   input[type=checkbox] {

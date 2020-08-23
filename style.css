@@ -259,12 +259,11 @@ hr {
 }
 .work .content h1 {
   font-size: 2em;
-  font-weight: bold;
-  font-family: "Karla", sans-serif;
+  font-family: "Yeseva One", sans-serif;
+  padding-bottom: 1rem;
 }
 .work .content h2 {
   font-size: 1.8em;
-  font-weight: bold;
   font-family: "Karla", sans-serif;
 }
 .work input[type=checkbox] {
