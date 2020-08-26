@@ -266,6 +266,16 @@ hr {
   font-size: 1.8em;
   font-family: "Karla", sans-serif;
 }
+.work .content .scrolling-content {
+  overflow-y: scroll;
+  height: 400px;
+}
+.work .content .scrolling-content::-webkit-scrollbar {
+  width: 5px;
+}
+.work .content .scrolling-content::-webkit-scrollbar-thumb {
+  background-color: #7D745E;
+}
 .work input[type=checkbox] {
   appearance: none;
   -moz-appearance: none;
