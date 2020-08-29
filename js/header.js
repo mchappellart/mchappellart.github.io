@@ -1,6 +1,6 @@
 document.getElementById('navigation').innerHTML =
 `
-<div class="navigation fixed-top py-3 d-md-block d-sm-none d-none">
+<div class="navigation py-3 d-md-block d-sm-none d-none">
   <div class="container-fluid">
     <div class="row align-items-center">
       <div class="col">
