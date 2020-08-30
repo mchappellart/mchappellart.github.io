@@ -375,6 +375,11 @@ hr {
 }
 
 @media (max-width: 576px) {
+  .contact {
+    h1 {
+      font-size: 3em;
+    }
+  }
   .work {
     width: 100%;
     h2 {
