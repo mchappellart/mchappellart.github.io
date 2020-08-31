@@ -266,15 +266,11 @@ hr {
   font-size: 1.8em;
   font-family: "Karla", sans-serif;
 }
-.work .content .scrolling-content {
-  overflow-y: scroll;
-  height: 400px;
+.work .content img {
+  transition: transform 0.3s ease-out;
 }
-.work .content .scrolling-content::-webkit-scrollbar {
-  width: 5px;
-}
-.work .content .scrolling-content::-webkit-scrollbar-thumb {
-  background-color: #7D745E;
+.work .content img:hover {
+  transform: scale(1.01);
 }
 .work input[type=checkbox] {
   appearance: none;
@@ -305,6 +301,16 @@ hr {
 .work .checkbox-filter:checked:after {
   font-weight: bold;
   content: attr(name) " x";
+}
+.work .scrolling-content {
+  overflow-y: scroll;
+  height: 400px;
+}
+.work .scrolling-content::-webkit-scrollbar {
+  width: 5px;
+}
+.work .scrolling-content::-webkit-scrollbar-thumb {
+  background-color: #7D745E;
 }
 
 .call-to-action {
