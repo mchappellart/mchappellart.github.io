@@ -136,7 +136,7 @@ hr {
 }
 
 .contact {
-  height: 100vh;
+  min-height: 100vh;
   h1 {
     font-size: 7rem;
     font-family: $yeseva-one;
@@ -378,6 +378,20 @@ hr {
   .contact {
     h1 {
       font-size: 3em;
+    }
+    .button {
+      background: $black;
+      color: white;
+      font-size: 0.9em;
+      letter-spacing: 0.2em;
+      border-radius: 2px;
+      padding:1.75em 3em;
+      &:hover{
+        background-color: darken($beige, 30%);
+        color: white;
+        opacity: 0.6;
+        text-decoration: none;
+      }
     }
   }
   .work {

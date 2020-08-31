@@ -116,7 +116,7 @@ hr {
 }
 
 .contact {
-  height: 100vh;
+  min-height: 100vh;
 }
 .contact h1 {
   font-size: 7rem;
@@ -352,6 +352,20 @@ hr {
 @media (max-width: 576px) {
   .contact h1 {
     font-size: 3em;
+  }
+  .contact .button {
+    background: #161616;
+    color: white;
+    font-size: 0.9em;
+    letter-spacing: 0.2em;
+    border-radius: 2px;
+    padding: 1.75em 3em;
+  }
+  .contact .button:hover {
+    background-color: #cea56b;
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
   }
 
   .work {
