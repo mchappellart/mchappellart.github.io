@@ -182,6 +182,9 @@ hr {
       color: darken($beige, 30%);
     }
   }
+  p {
+      letter-spacing: 1px;
+  }
 
   .content {
     height: 100%
