@@ -204,6 +204,9 @@ hr {
   color: #cea56b;
   text-decoration: none;
 }
+.work p {
+  letter-spacing: 1px;
+}
 .work button {
   background: white;
   border-style: none;
